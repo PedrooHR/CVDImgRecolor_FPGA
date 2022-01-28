@@ -23,5 +23,3 @@ The steps of the algorithm are:
 
 If you want to know more about this work, feel free to check the [graduation final project document](https://repositorio.ufsc.br/bitstream/handle/123456789/192338/TCCFinal.pdf?sequence=1) (Unfortunately, it is only available in Portuguese), or feel free to contact me about it (p233687@dac.unicamp.br). 
 
-## **About the FPGA implementation**
-
