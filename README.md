@@ -7,7 +7,7 @@ This repository contains the sources of the acceleration of the Image Recolor fo
 * [results](https://github.com/PedrooHR/CVDImgRecolor_FPGA/tree/main/results) folder shows the final results of time and images by each type of run
 * [OptProcess](https://github.com/PedrooHR/CVDImgRecolor_FPGA/blob/main/OptProcess.md) explains how the optimizations were driven in this project
 * [Results](https://github.com/PedrooHR/CVDImgRecolor_FPGA/blob/main/Results.md) shows the full results of this project
-* [ProjectSumary](https://github.com/PedrooHR/CVDImgRecolor_FPGA/blob/main/ProjectSummary.pdf) shows a summary of the project
+* [ProjectSumary](https://github.com/PedrooHR/CVDImgRecolor_FPGA/blob/main/ProjectSummary.pdf) shows a summary of the project (download the pdf to be able to click on the hyperlinks)
 
 ## **About the algorithm**
 This was my graduation final project. We leverage the use of the [Elastic Map](http://bioinfo-out.curie.fr/projects/elmap/) dimensionality reduction technique to develop a novel image recoloring algorithm.
