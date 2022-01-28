@@ -4,6 +4,7 @@
 ### First Optimization Batch (HW-Version 1)
 * This report shows the times of the kernel and compute units of one kernel call.
 * Input was a 16 x 16 image (with 25 Elastic Maps nodes) - Essentialy a 16x16x25 loop.
+
 | Kernel Version                   | Kernel Time (ms) | CU Time (ms) | Cumulative<br>Speed Up | Observations    |
 | -------------------------------- | ---------------- | ------------ | ---------------------- | --------------- |
 | Standard                         | 0.028            | 0.026        | 1.00x / 1.00x          | No observations |
@@ -14,13 +15,12 @@
 ### Second Optimization Batch (HW-Version 1)
 * This report shows the times of the kernel and compute units of one kernel call.
 * Input was a 16 x 16 image (with 100 Elastic Maps nodes) - Essentialy a 16x16x100 loop.
+
 | Kernel Version                   | Kernel Time (ms) | CU Time (ms) | Cumulative<br>Speed Up | Observations    |
 | -------------------------------- | ---------------- | ------------ | ---------------------- | --------------- |
 | Standard (From Optimizations 1)  | 0.172            | 0.169        | 1.00x / 1.00x          | No observations |
 | More input buffers + diff Banks  | 0.998            | 0.990        | 0.17x / 0.17x          | Memory Dependency Violation | 
-| MUltiple Compute Units           |             |        |  /           | No observations |
-
-
+| Multiple Compute Units           |             |        |  /           | No observations |
 
 ## About the actual algorithm
 * The recolor algorithm has 7 kernel calls. (7 epochs, more than that cause Elastic Map nodes to overlap each other)
