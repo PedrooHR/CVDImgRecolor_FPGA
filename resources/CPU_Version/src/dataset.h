@@ -7,6 +7,10 @@
 
 #ifndef DATASET_H_
 #define DATASET_H_
+
+#define cimg_display 0
+#define cimg_use_jpeg
+
 #include <vector>
 #include <CImg.h>
 
