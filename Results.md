@@ -5,10 +5,8 @@ This version contains modifications in the kernel. The external loop is unroll b
 ## **Results**:
 
 ### Experiment Setup:
-Experiments are drive in the aws instance and personal PC
+Experiments are drive in the aws instance
 * AWS instace: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz + UltraScale+ VU9P FPGA
-* Personal PC: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz + GTX 1650 4GB (Runs *CPU* and *GPU* tests)
-* **Obs:** The CPU code is single threaded, so the i5 CPU processor has better single-thread perfomance than the Xeon CPU 
 * **Obs:** All results are shown in seconds.
 * **Obs:** Results for deuteranopes.
 
