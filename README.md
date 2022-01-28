@@ -21,8 +21,9 @@ The steps of the algorithm are:
 * Verify if a inversion is necessary (this is not present in this version, the idea is to invert the elastic map to the CVD plane mapping if the colors got swapped, for example: if blue colors are mapped on green side)
 * Project the pixels on the CVD plane (and saves the recolored image)
 
-Figure 2 shows a result from this algorithm. There, "Referência" means the original image, "Deteranopia" shows how a deuteranope would see the original image (notice here the confusion between green/red/yellow colors), "MSS" and "PCA" shows state-of-the-art techniques and "ElMap" shows the result of this algorithm (all three shows hows a deuteranope would see the recolored image). Notice how in ElMap, we have the distinction between the colors the were initially confused.
+Figure 2 shows a result from this algorithm. Few points to make here. First, notice how a cvd person would perceive and confuse the colors green/red/yellow. Second, the recolored results of the three techniques are the simulatation of how a deuteranope would see the recolored image. Notice how in ElMap, we have the distinction between the colors the were initially confused.
 
+**Figure 2**: "Referência" means the original image; "Deuteranopia" shows how a deuteranope would see the original image; "MSS" and "PCA" shows state-of-the-art techniques; Finally, "ElMap" shows result of this algorithm
 <div align="center"><img  src="resources/imgs/example.png" width="800px"></div>
 
 <br><br>
