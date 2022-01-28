@@ -2,6 +2,13 @@
 
 This repository contains the sources of the acceleration of the Image Recolor for CVD people algorithm using FGPA for the 2022 XACC School.
 
+## **About the Project**
+* [resources](https://github.com/PedrooHR/CVDImgRecolor_FPGA/tree/main/resources) folder contains the source codes for the versions of the algorithm and images, also contains the cvd perception simulation
+* [results](https://github.com/PedrooHR/CVDImgRecolor_FPGA/tree/main/results) folder shows the final results of time and images by each type of run
+* [OptProcess](https://github.com/PedrooHR/CVDImgRecolor_FPGA/blob/main/OptProcess.md) explains how the optimizations were driven in this project
+* [Results](https://github.com/PedrooHR/CVDImgRecolor_FPGA/blob/main/Results.md) shows the full results of this project
+* [ProjectSumary](https://github.com/PedrooHR/CVDImgRecolor_FPGA/blob/main/ProjectSummary.pdf) shows a summary of the project
+
 ## **About the algorithm**
 This was my graduation final project. We leverage the use of the [Elastic Map](http://bioinfo-out.curie.fr/projects/elmap/) dimensionality reduction technique to develop a novel image recoloring algorithm.
 
