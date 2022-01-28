@@ -12,7 +12,7 @@
 | Different Memory Banks (3 banks) | 0.006            | 0.004        | 4.67x / 6.50x          | The in2 is only read once (does not change), so we probably don't need different memory banks |
 
 
-### Second Optimization Batch (HW-Version 1)
+### Second Optimization Batch (HW-Version 2 - By matters of time wasn't build)
 * This report shows the times of the kernel and compute units of one kernel call.
 * Input was a 16 x 16 image (with 100 Elastic Maps nodes) - Essentialy a 16x16x100 loop.
 
@@ -20,7 +20,7 @@
 | -------------------------------- | ---------------- | ------------ | ---------------------- | --------------- |
 | Standard (From Optimizations 1)  | 0.172            | 0.169        | 1.00x / 1.00x          | No observations |
 | More input buffers + diff Banks  | 0.998            | 0.990        | 0.17x / 0.17x          | Memory Dependency Violation | 
-| Multiple Compute Units           |             |        |  /           | No observations |
+| Multiple Compute Units           |                  |              |       /                | Couldn't evaluate in time |
 
 ## About the actual algorithm
 * The recolor algorithm has 7 kernel calls. (7 epochs, more than that cause Elastic Map nodes to overlap each other)
